@@ -88,6 +88,7 @@ Good luck!
 - preparation
 
 `cd solidity-assignment`
+
 `npm install -g ganache-cli`
 
 `ganache-cli`
