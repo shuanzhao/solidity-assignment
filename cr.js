@@ -6,7 +6,7 @@ const version = web3.version
 const total_votes=1
 
 var contract_address = '0x233D027084C2126A584F66B40e658C40ab300969'
-contract_abi=JSON.parse(fs.readFileSync('/home/docker/solidity-assignment/test/interface'))
+contract_abi=JSON.parse(fs.readFileSync('YOUR_PATH/interface'))
 var  CommitReveal = new web3.eth.Contract(contract_abi, contract_address);
 
 
