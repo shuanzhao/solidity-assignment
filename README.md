@@ -98,7 +98,9 @@ Good luck!
 `npm install`
 
 - adjust the path
+
 change the "contract_address" in cr.js line 8
+
 change "YOUR_PATH" for interface file path in cr.js line 9
 
 
