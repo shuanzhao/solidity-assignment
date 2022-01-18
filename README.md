@@ -83,3 +83,21 @@ Fork this repo, and _make your new repo private_. Write your code in a sub-folde
 Send `stella.tao@apcapitalinvestment.com` the _private_ GitHub link when you're done.
 
 Good luck!
+
+## Run the test
+- preparation
+
+`cd solidity-assignment`
+`npm install -g ganache-cli`
+
+`ganache-cli`
+
+`truffle migrate`
+
+`npm install`
+
+- adjust the path
+change "YOUR_PATH" for interface file path in cr.js line 9
+
+- run the script
+`node cr.js`
